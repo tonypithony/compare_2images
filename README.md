@@ -1,3 +1,7 @@
+```bash
+pip install Pillow opencv-python scikit-image numpy matplotlib
+```
+
 # Теория методов сравнения изображений
 
 В этом разделе мы рассмотрим теорию и принципы, лежащие в основе методов сравнения изображений, упомянутых ранее.
@@ -73,3 +77,13 @@ SSIM(x, y) = \frac{(2\mu_x\mu_y + C_1)(2\sigma_{xy} + C_2)}{(\mu_x^2 + \mu_y^2 +
 Каждый из этих методов отображает слой информации об изображениях и может быть использован в зависимости от специфических потребностей. Подбор метода зависит от контекста задачи, требований к точности и типу сравниваемых изображений.
 
 ![](https://raw.githubusercontent.com/tonypithony/compare_2images/refs/heads/main/vermeer.jpg)
+
+```bash
+RMS of histograms: 20986.94605278233
+Euclidean Distance: 8471.4778521814
+Number of matches: 117
+SSIM: 0.09005005850167969
+Different pixels: 1914727
+```
+
+![](https://raw.githubusercontent.com/tonypithony/compare_2images/refs/heads/main/amelie_lens.jpg)
